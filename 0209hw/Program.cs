@@ -105,11 +105,11 @@ namespace _0209hw
 
         static void Main(string[] args)
         {
-           /* do
+            do
             {
                 CreateForeignPassport();
             }
-            while (CreateForeignPassport() == false);*/
+            while (CreateForeignPassport() == false);
 
 
 
@@ -155,7 +155,7 @@ namespace _0209hw
                             opindex2 = i + 1;
                         }
                     }
-                    else if (charArray[i] == '='&&charArray[i-1]!='!'&&charArray[i-1]!='>' && charArray[i - 1] != '<')
+                    else if (charArray[i] == '='&&charArray[i-1]!='!'&&charArray[i-1]!='>' && charArray[i - 1] != '<'&&charArray[i-1]!='=')
                     {   count++;
                         op = "==";
                         opindex1 = i;
